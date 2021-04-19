@@ -1,0 +1,31 @@
+{
+  "name": "@pallad/scope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "scripts": {
+    "lint": "pallad-scripts lint",
+    "compile": "pallad-scripts compile",
+    "prepack": "npm run compile"
+  },
+  "files": [
+    "compiled"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallad-ts/scope.git"
+  },
+  "author": "Łukasz Kużyński <lukasz.kuzynski@gmail.com> (http://wookieb.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallad-ts/scope/issues"
+  },
+  "homepage": "https://github.com/pallad-ts/scope#readme",
+  "devDependencies": {
+    "@pallad/scripts": "^2.0.0-alpha.12"
+  },
+  "dependencies": {
+    "@pallad/id": "^1.0.0"
+  }
+}
